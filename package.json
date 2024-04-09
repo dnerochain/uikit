@@ -27,22 +27,26 @@
       "<rootDir>/src/setupTests.js"
     ]
   },
+  "resolutions": {
+    "@types/react": "16.8.6",
+    "@types/react-dom": "16.8.6"
+  },
   "devDependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.5",
-    "@types/react-dom": "^17.0.2",
+    "@types/react-dom": "^16.8.6",
     "@types/lodash": "^4.14.168",
     "jest-styled-components": "^7.0.3",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^5.2.0",
-    "styled-components": "5.2.0"
+    "styled-components": "^5.2.0"
   },
   "peerDependencies": {
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
     "react-router-dom": "^5.2.0",
-    "styled-components": "5.2.0"
+    "styled-components": "^5.2.0"
   },
   "dependencies": {
     "@popperjs/core": "^2.9.2",
